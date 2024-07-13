@@ -21,6 +21,8 @@ export function DisplayAssets({ display }: DisplayUserAssetsProps) {
 	const [listedMarketplaceAssets, setListedUserAssets] = useState<
 		ListedAsset[]
 	>(() => {
+		if (!global?.window) return [];
+
 		const stored = localStorage.getItem("listed");
 		return stored ? JSON.parse(stored) : [];
 	});
