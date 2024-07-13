@@ -4,7 +4,7 @@ This project is a frontend UI for the [anchor marketplace](https://github.com/AS
 
 It allows a user to list **collection** assets, unlist assets and purchase assets that do not belong to him.
 
-Try out the deployed version on ``
+Try out the deployed version on `https://anchor-marketplace-hw2nyqow8-jim4067s-projects.vercel.app/`
 
 ## Getting Started
 
